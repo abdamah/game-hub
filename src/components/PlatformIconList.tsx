@@ -33,7 +33,7 @@ const PlatformIvonList = ({ platfroms }: Props) => {
   return (
     <HStack marginY={1}>
       {platfroms.map((platform) => (
-        <Icon as={icomMap[platform.slug]} color='gray.500' />
+        <Icon key={platform.id} as={icomMap[platform.slug]} color='gray.500' />
       ))}
     </HStack>
   );
