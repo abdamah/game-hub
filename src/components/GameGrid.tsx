@@ -19,9 +19,9 @@ const GaneGrid = ({ gameQuery }: Props) => {
     <>
       {error && <Text>{error}</Text>}
       <SimpleGrid
-        columns={{ sm: 1, md: 2, lg: 2, xl: 4 }}
+        columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
         padding='10px'
-        spacing={3}
+        spacing={6}
       >
         {isLoading &&
           skeletons.map((skeleton) => (
