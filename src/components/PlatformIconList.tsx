@@ -20,7 +20,7 @@ interface Props {
 const PlatformIvonList = ({ platfroms }: Props) => {
   const icomMap: { [key: string]: IconType } = {
     pc: FaWindows,
-    playstation: FaPlaystation,
+    playstation5: FaPlaystation,
     xbox: FaXbox,
     nintendo: SiNintendo,
     mac: FaApple,
